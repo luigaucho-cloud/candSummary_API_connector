@@ -2,8 +2,8 @@
 require_once 'connect.php';
 //set the apikey, method,cid, cycle, and output(optional)
 $apikey = '9cae4d98fe283e31956102bd9ca8e7e8'; //enter your apikey
-$output = 'json';// outpu type
-$method = 'candSummary'; // nmethod used
+$output = 'json';// output type
+$method = 'candSummary'; // method used
 $cid = 'N00007360';//candidate id
 $cycle = 2022; //cycle (You can cahenge to a different year)
 
@@ -65,6 +65,7 @@ if($success)
 }
 //if error occurrs during database record insertion
  catch (PDOException $e) {
+   // record can't be inserted more than once
 echo 'Data was not inserted into the database<br>'.$e->getMessage();
 }
 
