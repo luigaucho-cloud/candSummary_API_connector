@@ -1,0 +1,29 @@
+//run the queries in PHPMYADMIN
+//creating database query
+
+CREATE DATABASE IF NOT EXISTS  reports
+
+
+//create table query
+
+USE reports;
+
+CREATE TABLE IF NOT EXISTS candidate_reports(
+    ID INT(11) AUTO_INCREMENT UNIQUE,
+    cand_name VARCHAR(200) DEFAULT 'Not set' NOT NULL,
+    cid VARCHAR(200)  NOT NULL,
+    cycle VARCHAR(4) DEFAULT 0 NOT NULL,
+    state VARCHAR(200) DEFAULT 'Not set' NOT NULL,
+    party VARCHAR(200) DEFAULT 'Not set' NOT NULL,
+    chamber VARCHAR(200) DEFAULT 'Not set' NOT NULL,
+    first_elected VARCHAR(200) DEFAULT 0 NOT NULL,
+    next_election VARCHAR(200) DEFAULT 0 NOT NULL,
+    total DECIMAL(65,2) DEFAULT 0 NOT NULL,
+    spent DECIMAL(65,2) DEFAULT 0 NOT NULL,
+    cash_on_hand DECIMAL(65,2) DEFAULT 0 NOT NULL,
+    debt DECIMAL(65,2) DEFAULT 0 NOT NULL,
+    origin VARCHAR(200) DEFAULT 'Not set' NOT NULL,
+    the_source VARCHAR(200) DEFAULT 'Not set' NOT NULL,
+    last_updated DATE DEFAULT NULL,
+    PRIMARY KEY (cid,cycle)
+)
