@@ -1,10 +1,10 @@
-//run the queries in PHPMYADMIN
-//creating database query
+#run the queries in PHPMYADMIN
+#creating database query
 
-CREATE DATABASE IF NOT EXISTS  reports
+CREATE DATABASE IF NOT EXISTS  reports;
 
 
-//create table query
+#create table query
 
 USE reports;
 
