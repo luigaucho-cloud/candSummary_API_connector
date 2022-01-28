@@ -12,12 +12,12 @@ candSummary_API_connector project fetches  summary fundraising information for s
     6. run http://localhost/candSummary_API_connector/fetchdata.php in your browser
     7. check mysql table to see data that has been inserted
 
-###Features
+### Features
 --------
 -fetch politician fundraising information and store in MYSQL database
 
 
-###Installation
+### Installation
 ------------
 
 Install candSummary_API_connector by running:
@@ -25,7 +25,7 @@ Install candSummary_API_connector by running:
     > Install candSummary_API_connector
 
 
-###Support
+### Support
 -------
 
 If you are having issues, please let us know.
