@@ -1,6 +1,11 @@
 # candSummary_API_connector
 candSummary_API_connector project fetches  summary fundraising information for specified politician and stores it in Mysql database
 
+# Requirements
+-XAMPP
+-PHP
+-Mysql
+
 ##Look how easy it is to use:
 
     1. import project into htdocs folder and unzip
@@ -16,13 +21,6 @@ candSummary_API_connector project fetches  summary fundraising information for s
 --------
 -fetch politician fundraising information and store in MYSQL database
 
-
-### Installation
-------------
-
-Install candSummary_API_connector by running:
-
-    > Install candSummary_API_connector
 
 
 ### Support
