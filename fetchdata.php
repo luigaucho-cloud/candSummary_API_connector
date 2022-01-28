@@ -1,7 +1,7 @@
 <?php
 require_once 'connect.php';
 //set the apikey, method,cid, cycle, and output(optional)
-$apikey = ''; //enter your apikey
+$apikey = '9cae4d98fe283e31956102bd9ca8e7e8'; //enter your apikey
 $output = 'json';// outpu type
 $method = 'candSummary'; // nmethod used
 $cid = 'N00007360';//candidate id
